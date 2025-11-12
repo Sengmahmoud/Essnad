@@ -261,7 +261,7 @@ h6 {
   }
 
   .navmenu li:last-child a {
-    padding-right: 0;
+    padding-right: 15px;
   }
 
   .navmenu li:hover>a,

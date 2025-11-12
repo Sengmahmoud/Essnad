@@ -1,0 +1,31 @@
+/* RTL Header alignment fix */
+.header .container-xl {
+  flex-direction: row-reverse; /* Flip logo & menu sides */
+  justify-content: space-between;
+}
+
+/* Keep logo on the right */
+.header .logo {
+  margin-right: 0%;
+  margin-left: auto;
+}
+
+/* Make menu appear on the left */
+.header .navmenu {
+  margin-left: 50%;
+  margin-right: auto;
+}
+
+.header .navmenu ul {
+  flex-direction: row-reverse; /* Maintain proper order for RTL menu text */
+}
+
+.header .navmenu li {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+/* Optional: align the English button nicely */
+.header .navmenu .btn-getstarted {
+  margin-right: 20px;
+}
